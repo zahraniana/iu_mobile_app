@@ -1,0 +1,286 @@
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img,
+ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, i, u, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside, canvas, details, embed, fieldset,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section,
+summary, time, mark, audio, video {
+}
+
+body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: 'ghala-bold',Tahoma,Tsans-serif !important;
+}
+
+.item-complex .item-content, .item-radio .item-content {
+    direction: rtl;
+    padding: 16px !Important;
+}
+
+.item-divider, .tabs {
+    direction: rtl;
+}
+
+.item-profile {
+    height: 90px;
+    .item-avatar > img:first-child
+
+{
+    max-width: 100px;
+    max-height: 100px:;
+}
+
+}
+
+
+.slider {
+    height: 100%;
+}
+
+.slider-slide {
+    padding-top: 80px;
+    color: #000;
+    background-color: #fff;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+}
+
+#logo {
+    margin: 30px 0px;
+}
+
+#list {
+    width: 170px;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+    #list ol {
+        margin-top: 30px;
+    }
+
+        #list ol li {
+            text-align: left;
+            list-style: decimal;
+            margin: 10px 0px;
+        }
+
+#logo > img {
+    width: 36%;
+}
+/**.slider-pager-page.active .ion-record {
+    color: #F14A22;
+}**/
+p, .ft-17 {
+    font-size: 17px !important;
+}
+
+.item p {
+    white-space: normal;
+}
+
+.item h2 {
+    color: #F14A22;
+}
+
+.foot {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.center-footer {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.splash h1.text-center {
+    padding-top: 20%;
+}
+
+.checkbox input:checked:before, .checkbox input:checked + .checkbox-icon:before {
+    background: #e42012;
+    border-color: #e42012;
+}
+
+.splash .loader {
+    margin: 0px auto;
+    display: block;
+}
+
+#circleG {
+    width: 149.33333333333334px;
+    margin: 0px auto;
+    margin-top: 20px;
+    height: 36px;
+}
+
+.circleG {
+    background-color: #FFFFFF;
+    float: left;
+    height: 32px;
+    margin-left: 9px;
+    width: 32px;
+    -moz-animation-name: bounce_circleG;
+    -moz-animation-duration: 1.9500000000000002s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: linear;
+    -moz-border-radius: 21px;
+    -webkit-animation-name: bounce_circleG;
+    -webkit-animation-duration: 1.9500000000000002s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: linear;
+    -webkit-border-radius: 21px;
+    -ms-animation-name: bounce_circleG;
+    -ms-animation-duration: 1.9500000000000002s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: linear;
+    -ms-border-radius: 21px;
+    -o-animation-name: bounce_circleG;
+    -o-animation-duration: 1.9500000000000002s;
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: linear;
+    -o-border-radius: 21px;
+    animation-name: bounce_circleG;
+    animation-duration: 1.9500000000000002s;
+    animation-iteration-count: infinite;
+    animation-direction: linear;
+    border-radius: 21px;
+}
+
+#circleG_1 {
+    -moz-animation-delay: 0.39s;
+    -webkit-animation-delay: 0.39s;
+    -ms-animation-delay: 0.39s;
+    -o-animation-delay: 0.39s;
+    animation-delay: 0.39s;
+}
+
+#circleG_2 {
+    -moz-animation-delay: 0.9099999999999999s;
+    -webkit-animation-delay: 0.9099999999999999s;
+    -ms-animation-delay: 0.9099999999999999s;
+    -o-animation-delay: 0.9099999999999999s;
+    animation-delay: 0.9099999999999999s;
+}
+
+#circleG_3 {
+    -moz-animation-delay: 1.1700000000000002s;
+    -webkit-animation-delay: 1.1700000000000002s;
+    -ms-animation-delay: 1.1700000000000002s;
+    -o-animation-delay: 1.1700000000000002s;
+    animation-delay: 1.1700000000000002s;
+}
+
+@-moz-keyframes bounce_circleG {
+    0% {
+    }
+
+    50% {
+        background-color: #ef4e3a;
+    }
+
+    100% {
+    }
+}
+
+@-webkit-keyframes bounce_circleG {
+    0% {
+    }
+
+    50% {
+        background-color: #ef4e3a;
+    }
+
+    100% {
+    }
+}
+
+@-ms-keyframes bounce_circleG {
+    0% {
+    }
+
+    50% {
+        background-color: #387ef5;
+    }
+
+    100% {
+    }
+}
+
+@-o-keyframes bounce_circleG {
+    0% {
+    }
+
+    50% {
+        background-color: #387ef5;
+    }
+
+    100% {
+    }
+}
+
+@keyframes bounce_circleG {
+    0% {
+    }
+
+    50% {
+        background-color: #387ef5;
+    }
+
+    100% {
+    }
+}
+
+
+.plan-list {
+    border-top: none;
+    background-image: none !important;
+}
+
+.plan {
+    line-height: 1;
+    padding: 0;
+}
+
+.plan-left {
+    text-align: right;
+    padding: 0px 10px 10px 10px;
+    max-width: 100px;
+}
+
+.plan-center {
+    background-color: #3399ff;
+    opacity: 0.5;
+    max-width: 4px !important;
+}
+
+.plan-right {
+    text-align: right;
+    padding: 10px 10px 10px 40px;
+}
+
+.plan-date {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 4px;
+    font-weight: 500;
+}
+
+.plan-duration {
+    font-size: 11px;
+    opacity: 0.4;
+}
+
+.plan-name {
+    text-align: right;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.plan-info {
+    opacity: 0.4;
+    font-size: 12px;
+    line-height: 1.4;
+}

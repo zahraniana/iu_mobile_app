@@ -1,0 +1,46 @@
+﻿<ion-view title="جدول الطالب">
+    <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
+    </ion-nav-buttons>
+    <ion-content padding="true">
+
+        <div class="button-bar padding-bottom">
+            <a class="button button-small button-light">اليوم</a>
+            <a class="button button-small button-positive">غدا</a>
+        </div>
+
+        
+        <ion-list class="list plan-list">
+            <div modifier="chevron" class="plan" ng-repeat="a in [1,2,3,4,5,6,7,8,9,10]">
+                <div class="item row">
+                    <div class="col plan-left">
+                        <div class="plan-date">5:30 PM</div>
+                        <div class="plan-duration">1h</div>
+                    </div>
+
+                    <div class="col plan-center" ng-style="{backgroundColor:a % 3 == 1 ? '#3399ff' : '#ccc'}">
+
+                    </div>
+
+                    <div class="col plan-right">
+                        <div class="plan-name">فقه وتفسير</div>
+
+                        <div class="plan-info">
+                            <div ng-hide="a % 4 == 0">
+                                123-456-789 <i class="ion-ios-telephone-outline"></i>
+                            </div>
+
+                            <div ng-hide="a % 3 == 0">
+                                كلية الشريعة،شعبة 200 <i class="ion-ios-location-outline"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </ion-list>
+
+
+
+    </ion-content>
+</ion-view>

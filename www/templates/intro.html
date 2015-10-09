@@ -1,0 +1,73 @@
+<ion-view hide-back-button="true" title="">
+    <ion-nav-buttons side="left">
+        <button class="button button-dark no-animation" ng-click="startApp()" ng-if="!slideIndex">
+            Skip Intro
+        </button>
+        <button class="button button-dark no-animation" ng-click="previous()" ng-if="slideIndex > 0">
+            Previous
+        </button>
+    </ion-nav-buttons>
+
+    <ion-nav-buttons side="right">
+        <button class="button button-dark no-animation" ng-click="next()" ng-if="slideIndex != 2">
+            Next
+        </button>
+    </ion-nav-buttons>
+
+    <ion-slide-box on-slide-changed="slideChanged(index)">
+        <ion-slide class="item-body">
+            <h3>Thank you for downloading Islamic Univ. App!</h3>
+            <div id="logo">
+                <img src="img/ionic.png">
+            </div>
+            <p class="padding">
+                Did you ever want an App that would facilitate your life at university
+            </p>
+            <p>
+                Look no far and follow this wizard..
+            </p>
+        </ion-slide>
+
+        <ion-slide class="item-body">
+            <h3>Using the App</h3>
+            <div class="list card">
+                <div class="item text-right">
+                    <h2>Step 1</h2>
+                    <p class="ft-17">
+                    	here we say something about univ.
+                    </p>
+
+                </div>
+
+                <div class="item text-right">
+                    <h2>Step 2</h2>
+                    <p class="ft-17">
+                    	here is another thing to tell students about our programs
+                    </p>
+
+                </div>
+                <div class="item text-right">
+                    <h2>Step 3</h2>
+                    <p class="ft-17">
+                    	etc ...
+                    </p>
+                </div>
+            </div>
+            <h3>Isin't Pretty Simple?</h3>
+        </ion-slide>
+
+        <ion-slide>
+            <div id="logo">
+                <img src="img/ionic.png">
+            </div>
+            <p class="padding foot">With Love from Abdullah A. Al-Zahrani</p>
+            <br/>
+            <br/>
+            <button class="button button-positive no-animation" ng-click="startApp()" ng-if="slideIndex == 2">
+                Start using IU App
+            </button>
+
+        </ion-slide>
+    </ion-slide-box>
+
+</ion-view>
